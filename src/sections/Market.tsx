@@ -284,13 +284,7 @@ const Market = () => {
                   <h4 className="font-bold text-gray-900 mb-1">把握市场机遇</h4>
                   <p className="text-sm text-gray-600">与易储数智共同开拓储能市场</p>
                 </div>
-                <button 
-                  onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="bg-[#00b49d] hover:bg-[#005c4b] text-white px-6 py-3 rounded-xl font-medium transition-all duration-300 flex items-center gap-2"
-                >
-                  合作咨询
-                  <ArrowRight className="w-4 h-4" />
-                </button>
+
               </div>
             </div>
           </div>

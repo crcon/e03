@@ -370,13 +370,7 @@ const Business = () => {
                 2025年全国布局 → 2026年欧洲市场 → 2027年全国布局 → 2028年国内TOP1 → 2030年100GWh运营规模
               </p>
             </div>
-            <button 
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-              className="bg-white text-[#00b49d] px-8 py-4 rounded-full font-medium hover:bg-gray-100 transition-all duration-300 flex items-center gap-2 flex-shrink-0"
-            >
-              合作咨询
-              <ArrowRight className="w-5 h-5" />
-            </button>
+
           </div>
         </div>
       </div>

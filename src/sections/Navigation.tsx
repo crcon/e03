@@ -10,7 +10,6 @@ const navLinks = [
   { label: '项目案例', href: '#projects' },
   { label: '并网业绩', href: '#grid-performance' },
   { label: '合作模式', href: '#business' },
-  { label: '联系我们', href: '#contact' },
 ];
 
 const Navigation = () => {
@@ -83,19 +82,7 @@ const Navigation = () => {
               ))}
             </div>
 
-            {/* CTA Button */}
-            <div className="hidden lg:block">
-              <Button
-                onClick={() => scrollToSection('#contact')}
-                className={`rounded-full px-6 transition-all duration-300 ${
-                  isScrolled
-                    ? 'bg-[#00b49d] hover:bg-[#005c4b] text-white'
-                    : 'bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white border border-white/30'
-                }`}
-              >
-                合作咨询
-              </Button>
-            </div>
+
 
             {/* Mobile Menu Button */}
             <button
@@ -150,14 +137,7 @@ const Navigation = () => {
               ))}
             </div>
 
-            <div className="mt-6 pt-6 border-t border-gray-100">
-              <Button
-                onClick={() => scrollToSection('#contact')}
-                className="w-full bg-[#00b49d] hover:bg-[#005c4b] text-white rounded-xl py-4 text-base h-auto"
-              >
-                合作咨询
-              </Button>
-            </div>
+
 
             {/* Contact Info */}
             <div className="mt-8 space-y-3">

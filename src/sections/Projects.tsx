@@ -207,21 +207,7 @@ const Projects = () => {
         </div>
 
         {/* Bottom CTA */}
-        <div className="mt-16 text-center">
-          <div className="inline-flex flex-col sm:flex-row items-center gap-4 bg-[#f5f5f5] rounded-2xl p-6">
-            <div className="text-left">
-              <h4 className="text-lg font-bold text-gray-900">有项目合作意向？</h4>
-              <p className="text-sm text-gray-600">我们期待与您携手共创绿色未来</p>
-            </div>
-            <button 
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-              className="bg-[#00b49d] hover:bg-[#005c4b] text-white px-6 py-3 rounded-full font-medium transition-all duration-300 flex items-center gap-2"
-            >
-              联系我们
-              <ArrowRight className="w-4 h-4" />
-            </button>
-          </div>
-        </div>
+
       </div>
     </section>
   );
