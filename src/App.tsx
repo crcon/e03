@@ -13,7 +13,6 @@ import GridPerformance from './sections/GridPerformance';
 import Business from './sections/Business';
 import BoundaryConditions from './sections/BoundaryConditions';
 import JointDevelopment from './sections/JointDevelopment';
-import Contact from './sections/Contact';
 import Footer from './sections/Footer';
 
 function App() {
@@ -70,9 +69,6 @@ function App() {
 
         {/* Joint Development Section - 联合开发模式 */}
         <JointDevelopment />
-
-        {/* Contact Section - 联系我们 */}
-        <Contact />
       </main>
 
       {/* Footer */}

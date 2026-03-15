@@ -4,8 +4,7 @@ import {
   Landmark,
   Wallet,
   Settings,
-  TrendingUp,
-  ArrowRight
+  TrendingUp
 } from 'lucide-react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -192,22 +191,7 @@ const JointDevelopment = () => {
           </div>
         </div>
 
-        {/* Bottom CTA */}
-        <div className="mt-12 text-center">
-          <div className="inline-flex flex-col sm:flex-row items-center gap-4 bg-gradient-to-r from-[#005c4b] to-[#00b49d] rounded-2xl p-6 text-white">
-            <div className="text-left">
-              <h4 className="text-lg font-bold mb-1">有意向开展联合开发合作？</h4>
-              <p className="text-white/80 text-sm">欢迎联系我们洽谈合作细节</p>
-            </div>
-            <button 
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-              className="bg-white text-[#00b49d] px-6 py-3 rounded-full font-medium hover:bg-gray-100 transition-all duration-300 flex items-center gap-2 flex-shrink-0"
-            >
-              联系我们
-              <ArrowRight className="w-4 h-4" />
-            </button>
-          </div>
-        </div>
+
       </div>
     </section>
   );
