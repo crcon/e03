@@ -291,13 +291,7 @@ const Solutions = () => {
 
                     {/* CTA */}
                     <div className="pt-4">
-                      <button 
-                        onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                        className="inline-flex items-center gap-2 bg-[#00b49d] hover:bg-[#005c4b] text-white px-6 py-3 rounded-full font-medium transition-all duration-300 hover:gap-4"
-                      >
-                        咨询详情
-                        <ArrowRight className="w-5 h-5" />
-                      </button>
+
                     </div>
                   </div>
                 </div>

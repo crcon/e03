@@ -361,7 +361,6 @@ const Business = () => {
           </div>
         </div>
 
-        {/* Bottom CTA */}
         <div className="text-center">
           <div className="inline-flex flex-col lg:flex-row items-center gap-6 bg-gradient-to-r from-[#005c4b] to-[#00b49d] rounded-2xl p-8 text-white">
             <div className="text-left">

@@ -139,15 +139,7 @@ const Navigation = () => {
 
 
 
-            {/* Contact Info */}
-            <div className="mt-8 space-y-3">
-              <div className="flex items-center gap-3 text-sm text-gray-600">
-                <div className="w-8 h-8 rounded-lg bg-[#e6f7f5] flex items-center justify-center">
-                  <Zap className="w-4 h-4 text-[#00b49d]" />
-                </div>
-                <span>139-8008-1510</span>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>

@@ -206,9 +206,7 @@ const Projects = () => {
           ))}
         </div>
 
-        {/* Bottom CTA */}
 
-      </div>
     </section>
   );
 };
