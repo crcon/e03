@@ -2,7 +2,6 @@ import { useEffect, useRef } from 'react';
 import { 
   Globe, 
   CheckCircle2,
-  ArrowRight,
   Users,
   Building2,
   Landmark,

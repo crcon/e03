@@ -5,7 +5,6 @@ import {
   TrendingUp, 
   BarChart3, 
   CheckCircle2,
-  ArrowRight,
   Zap,
   Shield,
   Settings

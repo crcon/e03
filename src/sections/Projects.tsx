@@ -12,7 +12,7 @@ const projects = [
     location: '河北省邢台市',
     type: '电网侧储能电站',
     capacity: '300MW/1200MWh',
-    image: '/images/project-weixian.jpg',
+    image: './images/project-weixian.jpg',
     description: '作为区域储能应用的标杆案例，充分展现了公司在储能系统集成、工程建设、并网调试等方面的综合实力，被评为"先进单位"。',
     features: ['高标准建设', '智能化运营', '全周期服务'],
     highlight: '区域储能标杆',
@@ -205,7 +205,7 @@ const Projects = () => {
             </div>
           ))}
         </div>
-
+      </div>
 
     </section>
   );

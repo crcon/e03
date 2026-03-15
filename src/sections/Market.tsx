@@ -4,7 +4,6 @@ import {
   Zap, 
   Users, 
   Target,
-  ArrowRight,
   BarChart3,
   Globe
 } from 'lucide-react';

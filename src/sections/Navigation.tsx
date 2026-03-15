@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { Button } from '@/components/ui/button';
 import { Zap, Menu, X } from 'lucide-react';
 
 const navLinks = [
